@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot');
+  src:  url('../fonts/icomoon.eot#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.woff2') format('woff2'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gvl:before {
+  content: "\e91e";
+}
+.icon-facebook-new .path1:before {
+  content: "\e900";
+  color: rgb(51, 51, 51);
+}
+.icon-facebook-new .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-facebook-new .path3:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+.icon-instagram-new .path1:before {
+  content: "\e915";
+  color: rgb(51, 51, 51);
+}
+.icon-instagram-new .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-instagram-new .path3:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+.icon-linkedin-new .path1:before {
+  content: "\e918";
+  color: rgb(51, 51, 51);
+}
+.icon-linkedin-new .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-linkedin-new .path3:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+.icon-magazine:before {
+  content: "\e90c";
+}
+.icon-phone:before {
+  content: "\ea1c";
+}
+.icon-envelop1:before {
+  content: "\ea34";
+}
+.icon-user:before {
+  content: "\eb08";
+}
+.icon-search:before {
+  content: "\eb36";
+}
+.icon-star-empty:before {
+  content: "\ece3";
+}
+.icon-star-half:before {
+  content: "\ece4";
+}
+.icon-star-full:before {
+  content: "\ece5";
+}
+.icon-cross:before {
+  content: "\ed6d";
+}
+.icon-chevron-right:before {
+  content: "\edbc";
+}
+.icon-chevron-left:before {
+  content: "\edc4";
+}
